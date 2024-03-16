@@ -1,0 +1,55 @@
+    1  pip3 install numpy
+    2  mkdir git-basic-exercises
+    3  cd git-basic-exercises
+    4  ls -a
+    5  git init
+    6  ls -a
+    7  git status
+    8  touch README.md
+    9  ls -a
+   10  git status
+   11  git log
+   12  git add README.md
+   13  git status
+   14  git rm --cached README.md
+   15  git status
+   16  git add README.md
+   17  git commit -m "initial commit"
+   18  git log
+   19  git commit -m "initial commit"
+   20  git config --global user.email "bongohmazi09@gmail.com"
+   21  git commit -m "initial commit"
+   22  git log 
+   23  q
+   24  nano README.md
+   25  cat README.md
+   26  git status
+   27  git add README.md
+   28  git commit -m "second commit"
+   29  nano README.md
+   30  cat README.md
+   31  git add README.md
+   32  git commit -m "third commit"
+   33  git log
+   34  q
+   35  git checkout 
+   36  cat README.md
+   37  git checkout main
+   38  cat README.md
+   39  git branch
+   40  git branch milkshake-flavours
+   41  git branch
+   42  git checkout master
+   43  git checkout milkshake-flavours
+   44  nano milkshakes.md
+   45  git status
+   46  git add milkshakes.md
+   47  git commit -m "added initial flavours"
+   48  git log
+   49  git checkout master
+   50  git log
+   51  git branch history
+   52  git checkout history
+   53  git log
+   54  git branch
+   55  history > history.txt
